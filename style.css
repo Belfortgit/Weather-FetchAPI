@@ -1,0 +1,124 @@
+#monica-root-content
+{
+    display:none;
+}
+
+body{
+    background-color: rgb(11, 11, 53);
+    display:flex;
+    justify-content:center;
+    
+}
+
+.app-container{
+    height:500px;
+    width:400px;
+    background:linear-gradient(135deg,#00feba,#5b548a);
+    margin-top:8%;
+    border-radius:1rem;
+}
+
+.search{
+    height:90px;
+    /* border:1px solid white; */
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+}
+.search-box{
+    height:2.5rem;
+    width:270px;
+    border-radius:2rem;
+    background-color:white;
+}
+.search-box input{
+    background-color: white;
+    border:none;  
+    outline:none; 
+    height:1.6rem;
+    width:240px;
+    border-radius:20%;
+    margin-left:10px;
+    margin-top:5px;
+    padding-left:10px;
+    font-size:0.99rem;
+}
+
+.search-icon{
+    height:2.5rem;
+    width:2.5rem;
+    border-radius:50%;
+    background-color: white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.search-icon button{
+    border:none;
+    background-color: white;
+    cursor:pointer;
+}
+
+.weather-img
+{
+    height:160px;
+    width:160px;
+    /* border:1px solid white; */
+    margin-left:30%;
+    display:flex;
+}
+
+
+.temp{
+    height:70px;
+    /* border:1px solid white; */
+    color:white;
+    font-size:2.7rem;
+    text-align:center;   
+}
+.location{
+    height:70px;
+    /* border:1px solid white; */
+    color:white;
+    font-size:2.7rem;
+    text-align:center;   
+}
+
+.temp-parameters{
+    /* border:1px solid white; */
+    height:100px;
+    display:flex;
+}
+.para1, .para2
+{
+    width:50%;
+    height:100%;
+    display:flex;
+}
+
+.para1 img{
+    height:40px;
+    margin-top:25px;
+    margin-left:30px;
+}
+.para1-info{
+    color:white;
+    font-size:1.1rem;
+    line-height:5px;
+    margin-left:20px;
+    margin-top:10px;
+}
+
+.para2 img{
+    height:40px;
+    margin-top:20px;
+    margin-left:30px;
+}
+.para2-info{
+    color:white;
+    font-size:1.1rem;
+    line-height:5px;
+    margin-left:20px;
+    margin-top:10px;
+}
+
